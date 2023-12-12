@@ -1,7 +1,5 @@
 package com.softnovo.algorithm.array;
 
-import com.google.common.base.Preconditions;
-
 import java.util.Arrays;
 
 /**
@@ -13,7 +11,7 @@ public class SelfArray {
 	private int size;
 
 	public SelfArray(int size) {
-		Preconditions.checkArgument(size >= 0, "size 必须大于等于0");
+		//Preconditions.checkArgument(size >= 0, "size 必须大于等于0");
 		this.array = new int[size];
 	}
 
@@ -49,9 +47,10 @@ public class SelfArray {
 		SelfArray selfArray = new SelfArray();
 		selfArray.add(0,12);
 		selfArray.add(0,12);
-		selfArray.add(1, 1);
-		selfArray.add(2, 1);
-		selfArray.add(5);
+		selfArray.add(0, 1);
+		selfArray.add(0, 1);
+		selfArray.add(selfArray.size, 5);
+		selfArray.add(selfArray.size + 3, 6);
 		System.out.println(selfArray);
 	}
 
