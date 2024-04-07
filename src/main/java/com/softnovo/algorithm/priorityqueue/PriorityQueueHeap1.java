@@ -6,11 +6,12 @@ import java.util.Arrays;
  * 存储从0开始.
  * @param <E>
  * 索引 0 开始
- *   节点 i 的父节点为 floor((i-1)/2)，当 i>0 时;
+ *   节点 i 的父节点为 floor((i-1)/2)，当 i > 0 时;
  *   节点 i 的左子节点为 2i+1，右子节点为 2i+2，当然它们得 < size;
  * 索引 1 开始
  *   节点 i 的父节点为 floor(i/2)，当 i > 1 时;
  *   节点 i 的左子节点为 2i，右子节点为 2i+1，同样得 < size;
+ *
  */
 public class PriorityQueueHeap1<E extends Priority> implements Queue<E> {
     private final E[] array;
@@ -127,8 +128,8 @@ public class PriorityQueueHeap1<E extends Priority> implements Queue<E> {
         System.out.println(priorityQueueHeap1.poll());
         System.out.println(priorityQueueHeap1);
 
-        System.out.println(priorityQueueHeap1.poll());
-        System.out.println(priorityQueueHeap1);
+//        System.out.println(priorityQueueHeap1.poll());
+//        System.out.println(priorityQueueHeap1);
 
     }
 
