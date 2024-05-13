@@ -4,10 +4,7 @@ import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Multimap;
 import org.apache.commons.collections4.map.UnmodifiableMap;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -30,4 +27,9 @@ public class Test {
 
 
     }
+
+    public static <E extends Comparable<? super E>> E max(Collection<E> collection) {
+        return null;
+    }
+
 }
