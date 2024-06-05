@@ -1,12 +1,10 @@
 package com.softnovo.algorithm.juc;
 
-import org.junit.Test;
+
 
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
 
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertSame;
 
 public class ReferenceTest {
     public static void main(String[] args) {

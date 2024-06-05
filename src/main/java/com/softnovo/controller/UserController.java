@@ -50,6 +50,7 @@ public class UserController {
     @RequestMapping("/test")
     @ResponseBody
     public String test() {
+        System.out.println("sdflsdjfksjdflsjdfklsdjfklsdjfklsdfjsdklfjskldf");
         return "ccccc";
     }
 
