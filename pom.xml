@@ -89,6 +89,12 @@
             <version>3.12.1.GA</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.thoughtworks.xstream</groupId>
+            <artifactId>xstream</artifactId>
+            <version>1.4.8</version>
+        </dependency>
+
         <!-- tools end -->
 
     </dependencies>
